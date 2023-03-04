@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    max-width: 100%;
+}
+.landing-page {
+    background-image: url("imgs/javier-miranda-W-ppBwJZSV8-unsplash.jpg");
+    background-image: url("imgs/andrew-ridley-jR4Zf-riEjI-unsplash.jpg");
+    /* background-image: url('imgs/alexander-andrews-soLEw77Napo-unsplash.jpg'); */
+    /* background-image: url('imgs/brandon-erlinger-ford-jL8QFwnuOcQ-unsplash.jpg'); */
+    /* background-image: url('imgs/SL-051919-20420-21.jpg'); */
+   background-image: url('imgs/tech-daily-PGuCnUzsRSM-unsplash.jpg');
+
+    background-size: cover;
+    height: 125vh;
+    width: 100vw;
+    background-position: center;
+   
+}
+.overlay {
+    width: 100vw;
+    height: 125vh;
+    /* background-color: rgba(245, 245, 245, 0.177); */
+    background-color: rgba(0, 0, 139, 0.067);
+    background-color: rgba(0, 0, 0, 0.472);
+
+    backdrop-filter: Blur(5px);
+}
+.header-page {
+    width: 85%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-page .web-name {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web-name .web-name-one {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 70px;
+}
+.web-name-name {
+    color: orangered;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 70px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100% - 50%);
+    height: 70px;
+}
+ul li {
+    list-style-type: none;
+    color: white;
+    line-height: 70px;
+    /* font-weight: lighter; */
+
+}
+.web-bttns {
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.web-bttns button {
+    margin: auto 10px ;
+    color: white;
+}
+.web-bttns #btn-one {
+    width: 100px;
+    height: auto;
+    border:1px solid orangered;
+    color: white;
+
+}
+.web-bttns #btn-two {
+    width: 100px;
+    height: auto;
+    background-color: orangered;
+    color: white;
+}
+.web-last i {
+    font-size: 1.5rem;
+    color: white;
+    margin: auto 12px;
+    
+}
+.web-last {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form-place {
+    margin:  100px auto;
+    width: 700px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.304);
+    border: 1px solid rgba(0, 0, 0, 0.162);
+    border-radius: 10px;
+    backdrop-filter: Blur(4px);
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.form-place .form-title {
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    display: block;
+    color: white;
+    letter-spacing: 5px;
+    margin: 40px auto 10px;
+    
+}
+
+.progress {
+    width: 400px;
+    margin: 20px auto 30px;
+    color: red;
+    background-color: red;
+
+}
+#p-bar {
+    color: red;
+    background-color: red;
+    background-color: orangered;
+    width: 0%;
+    transition: 2s;
+    
+    
+} 
+
+
+.form-place form input {
+width: 300px;
+margin: 10px;
+border-radius: 3px;
+border: none;
+outline: none;
+height: 35px;
+}
+.form-place form label {
+    width: 150px;
+}
+.form-place form button {
+    display: block;
+    margin:  25px auto;
+
+}
+
+
+
+
+.items-cont {
+    width: 90%;
+    height: 800px;
+    margin:  30px auto;
+}
+
+.items-title {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+}
+.line {
+    width: 100px;
+    height: 5px;
+    margin: 5px auto;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.items-flex {
+    margin: 15px auto;
+    width: 100%;
+    height: 100%;
+
+}
+.container-icon {
+    position: relative;
+}
+.empty-span-icon {
+    background-color: orangered;
+    position: absolute;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    top: -10px;
+    left: 27px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    display: none;
+
+
+}
+.empty-span-icon2 {
+    background-color: orangered;
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    bottom: -6px;
+    right: -3px;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+    
+
+}
+.items-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.item-card {
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    position: relative;
+
+}
+.item-card img {
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+
+
+.item-card::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.433);
+    backdrop-filter: blur(1px);
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+}
+.item-card:hover::after {
+    height: 350px;
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+.item-card .frame-txt {
+    margin: auto;
+    text-align: center;
+    color: black;
+    color: whitesmoke;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-weight: bold;
+    z-index: 11;
+    visibility: hidden;
+
+}
+.item-card:hover .frame-txt {
+    transition: 2s;
+    opacity: 1;
+    visibility: visible;
+
+}
+.frame-txt .title {
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px auto;
+}
+.frame-txt i {
+    margin: 15px 10px;
+    font-size:1.5rem ;
+    color: whitesmoke;
+} 
+.line2 {
+    margin: 10px auto;
+    width: 770px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: orangered;
+  
+}
+.line3 {
+    margin: 5px auto 10px;
+    width: 80px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+#shoppingcart {
+    color: orangered;
+}
+
+.list-price {
+    z-index: 2;
+    width: 250px;
+    height: 250px;
+    border: 1px solid orangered;
+    background-color: rgba(255, 255, 255, 0.108);
+    backdrop-filter: blur(1px);
+    transition: 1s;
+    position: absolute;
+    top: 55px;
+    right: -110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px 10px;
+
+}
+.list-price-items {
+    width: 95%;
+    height: auto;
+    font-size: 1rem;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ahmed {
+    display: none;
+    transition: 3s;
+}
+#its-submit {
+    background-color: orangered;
+    border: none;
+    outline: none;
+    display: block;
+}
+#nextpage {
+    display: none;
+    position: absolute;
+    bottom: 9px;
+    left: 300px;
+    background-color: orangered;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+#shit {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: rgba(245, 245, 245, 0.385);
+}
+
+.popy {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.186);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 80px;
+    right: 70px;
+    z-index: 3;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    border: .5px solid whitesmoke;
+    display: none;
+    text-align: center;
+    overflow: scroll;
+}
+.popy-title {
+    margin: 5px auto ;
+}
+.line4 {
+    width: 50px;
+    height: 2px;
+    background-color: orangered;
+    margin: 10px auto;
+}
+.popy-up {
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    border-bottom: 1px solid whitesmoke;
+    margin: 10px auto;
+    display: block;
+    color: whitesmoke;
+    display: none;
+    
+
+}
+
+.title {
+    cursor: pointer;
+}
